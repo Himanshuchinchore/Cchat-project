@@ -8,7 +8,7 @@ import ReactScrollToBottom from "react-scroll-to-bottom";
 import closeIcon from "../../images/closeIcon.png";
 
 let socket;
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://cchat-project.onrender.com";
 
 const Chat = () => {
   const [id, setId] = useState("");
